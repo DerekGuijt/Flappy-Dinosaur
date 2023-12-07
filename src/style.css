@@ -1,1 +1,13 @@
-@import "~bootstrap/dist/css/bootstrap.min.css";
+body {
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #70c5ce;
+}
+
+canvas {
+  border: 1px solid #000;
+  display: block; /* Remove any default spacing applied to the canvas element */
+}
